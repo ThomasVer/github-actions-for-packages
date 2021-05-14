@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - "**Dockerfile**"
+      - "**.yml"
 jobs:
   build:
     runs-on: ubuntu-latest
